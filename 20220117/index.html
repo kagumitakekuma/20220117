@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>my history</title>
+  </head>
+  <body>
+    <h2>Practice</h2>
+    <pre>
+    <?php
+    try{
+        $db= new PDO('mysql:dbname=mydb;charset=utf8;host=localhost','root','');
+    }   catch (PDOException $e){
+        echo 'DB接続エラー：'. $e->getMessage();
+    }
+
+
+
+
+    
+
+    ?>
+    </pre>
+  </body>
+</html>
